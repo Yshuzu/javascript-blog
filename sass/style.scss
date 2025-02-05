@@ -119,3 +119,83 @@ body {
   }
 }
 
+/* Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  
+  a {
+    display: inline-block;
+    padding: 5px 10px;
+    background: lighten($color-light, 20%);
+    color: $color-light;
+    border-radius: 5px;
+    text-decoration: none;
+    &:hover {
+      background: darken($color-dark, 20%);
+      color: $color-light;
+    }
+  }
+
+  .tag-size-1 {
+    font-size: 20px;
+    color: rgba($color-dark, 0.6);
+  }
+
+  .tag-size-2 {
+    font-size: 25px;
+    color: rgba($color-dark, 0.7);
+  }
+
+  .tag-size-3 {
+    font-size: 30px;
+    color: rgba($color-dark, 0.8);
+  }
+
+  .tag-size-4 {
+    font-size: 35px;
+    color: rgba($color-dark, 0.9);
+  }
+
+  .tag-size-5 {
+    font-size: 40px;
+    color: $color-dark;
+    font-weight: bold;
+  }
+}
+
+/* Authors */
+
+.authors {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  .author-size-1 {
+    font-size: 20px;
+    color: rgba($color-dark, 0.6);
+  }
+
+  .author-size-2 {
+    font-size: 27px;
+    color: rgba($color-dark, 0.7);
+  }
+
+  .author-size-3 {
+    font-size: 35px;
+    color: rgba($color-dark, 0.8);
+  }
+
+  .author-size-4 {
+    font-size: 40px;
+    color: rgba($color-dark, 0.9);
+  }
+
+  .author-size-5 {
+    font-size: 50px;
+    color: $color-dark;
+    font-weight: bold;
+    
+  }
+}
+  
